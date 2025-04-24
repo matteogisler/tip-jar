@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# TipJar
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+A minimal Solidity project for collecting ETH tips and letting the owner withdraw them. Built with Hardhat, TypeScript, and Ethers v6.
 
-Try running some of the following tasks:
+## Setup
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+```bash
+git clone <repo-url> && cd tipjar
+npm install
+```
+
+## Compile & Test
+
+```bash
+npm run compile
+npm run test
 ```
