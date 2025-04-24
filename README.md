@@ -5,7 +5,7 @@ A minimal Solidity project for collecting ETH tips and letting the owner withdra
 ## Setup
 
 ```bash
-git clone <repo-url> && cd tipjar
+git clone https://github.com/matteogisler/tip-jar.git && cd tipjar
 npm install
 ```
 
